@@ -1,0 +1,115 @@
+.tasks {
+  width: 100%;
+  max-width: 546px;
+  padding-top: 32px;
+  background: #ffffff;
+  border: 1px solid #dfe0eb;
+  border-radius: 8px;
+}
+.tasks__heading {
+  padding: 0 32px;
+  margin-bottom: 36px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.tasks__title {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 8px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+  color: #252733;
+}
+.tasks__desc {
+  padding: 0;
+  margin: 0;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  color: #9fa2b4;
+}
+.tasks__link {
+  font-family: "Mulish";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: right;
+  letter-spacing: 0.2px;
+  color: #3751ff;
+  text-decoration: none;
+}
+.tasks__form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 32px;
+  border-bottom: 1px solid #dfe0eb;
+}
+.tasks__inp {
+  width: 100%;
+  max-width: 336px;
+  border: none;
+  padding-bottom: 18px;
+  outline: none;
+}
+.tasks__inp::placeholder {
+  font-family: "Mulish";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #c5c7cd;
+}
+.tasks__btn {
+  width: 24px;
+  height: 24px;
+  margin-bottom: 18px;
+  display: inline-block;
+  color: #9fa2b4;
+  font-size: 20px;
+  display: inline-block;
+  background-color: #f0f1f7;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+.tasks__list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.tasks__item {
+  padding-top: 20px;
+  padding-bottom: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.tasks__item:not(:last-child) {
+  border-bottom: 1px solid #dfe0eb;
+}
+.tasks__item-content {
+  padding-left: 32px;
+  display: flex;
+  align-items: center;
+}
+.tasks__check {
+  border-radius: 50px;
+}
+.tasks__item-desc {
+  padding: 0;
+  margin: 0;
+  margin-left: 16px;
+}
+.tasks__item-btn {
+  display: inline-block;
+  margin-right: 32px;
+}

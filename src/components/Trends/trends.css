@@ -1,0 +1,117 @@
+.trends {
+  margin-left: 20px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  background-color: #fff;
+  border: 1px solid #dfe0eb;
+  border-radius: 8px;
+}
+.trends__time-wrap {
+  width: 100%;
+  padding-top: 32px;
+  padding-left: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.trends__time-head {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 8px;
+  font-family: "Mulish";
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+  color: #252733;
+}
+.trends__time-day {
+  padding: 0;
+  margin: 0;
+  font-family: "Mulish";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  color: #9fa2b4;
+}
+.trends__time-week-wrap {
+  display: flex;
+  align-items: center;
+  margin-right: 32px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.1px;
+  color: #9fa2b4;
+}
+.trends__time-today {
+  display: flex;
+  align-items: center;
+}
+.trends__time-today::before {
+  display: inline-block;
+  width: 16px;
+  margin-right: 8px;
+  background-color: #3751ff;
+  border: 2px solid #3751ff;
+  border-radius: 20px;
+  content: "";
+}
+.trends__time-yesterday {
+  padding-left: 56px;
+}
+.trends__time-yesterday::before {
+  display: inline-block;
+  width: 16px;
+  margin-right: 8px;
+  background-color: #dfe0eb;
+  border: 2px solid #dfe0eb;
+  border-radius: 20px;
+  content: "";
+}
+.trends__list {
+  width: 100%;
+  max-width: 342px;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  border-left: 1px solid #dfe0eb;
+  text-align: center;
+}
+.trends__item {
+  padding-top: 32px;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: 24px;
+}
+.trends__item:not(:last-child) {
+  border-bottom: 1px solid #dfe0eb;
+}
+.trends__item-title {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 6px;
+  font-family: "Mulish";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #9fa2b4;
+}
+.trends__item-num {
+  padding: 0;
+  margin: 0;
+  padding: 0;
+  margin: 0;
+  font-family: "Mulish";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.3px;
+  color: #252733;
+}

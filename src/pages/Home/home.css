@@ -1,0 +1,16 @@
+.overview-section{
+    margin-left: 255px;
+    padding-bottom: 30px;
+}
+.overview{
+    padding-left: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.content-bottom{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}

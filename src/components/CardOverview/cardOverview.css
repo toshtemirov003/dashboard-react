@@ -1,0 +1,41 @@
+.overview__card {
+  width: 100%;
+  max-width: 258px;
+  padding: 24px 0;
+  background: #ffffff;
+  border: 1px solid #dfe0eb;
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+}
+.overview__card:hover {
+  color: #3751ff;
+  border: 1px solid #3751ff;
+  cursor: pointer;
+}
+.overview__card-title {
+  padding: 0;
+  margin: 0;
+  font-family: "Mulish";
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+  color: #9fa2b4;
+}
+.overview__card-title:hover {
+  color: #3751ff;
+}
+.overview__card-num {
+  padding: 0;
+  margin: 0;
+  font-family: "Mulish";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: 1px;
+  color: #252733;
+}
+.overview__card-num:hover {
+  color: #3751ff;
+}

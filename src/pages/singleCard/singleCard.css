@@ -1,0 +1,9 @@
+.singleCard{
+    width: 270px;
+    padding: 10px 30px;
+    margin-left: 275px;
+    color: lightgreen;
+    border: 1px solid #000;
+    border-radius: 10px;
+    text-align: center;
+}
