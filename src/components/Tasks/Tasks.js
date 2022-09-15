@@ -26,21 +26,21 @@ export const Tasks = () => {
             <input className="tasks__check" type="radio" />
             <p className="tasks__item-desc">Finish ticket update</p>
           </div>
-          <button className="tasks__item-btn">Urgent</button>
+          <button className="tasks__item-btn tasks__item-btn--urgent ">Urgent</button>
         </li>
         <li className="tasks__item">
           <div className="tasks__item-content">
             <input className="tasks__check" type="radio" />
             <p className="tasks__item-desc">Create new ticket example</p>
           </div>
-          <button className="tasks__item-btn">New</button>
+          <button className="tasks__item-btn tasks__item-btn--new">New</button>
         </li>
         <li className="tasks__item">
           <div className="tasks__item-content">
             <input className="tasks__check" type="radio" defaultChecked />
             <p className="tasks__item-desc">Update ticket report</p>
           </div>
-          <button className="tasks__item-btn">Default</button>
+          <button className="tasks__item-btn tasks__item-btn--default">Default</button>
         </li>
       </ul>
     </div>
