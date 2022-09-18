@@ -84,6 +84,11 @@
   justify-content: space-between;
   margin-bottom: 24px;
 }
+.peoples:not(:last-child):hover {
+  background-color: #DFE0EB;
+  transition: background-color 0.5s ease;
+  /* opacity: 0.4; */
+}
 
 .peoples span {
   font-family: "Mulish";
